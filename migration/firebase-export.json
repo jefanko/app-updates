@@ -1,0 +1,790 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "email": "admin@local.app",
+      "password": "admin123",
+      "name": "Administrator"
+    }
+  ],
+  "clients": [
+    {
+      "id": "1GQXGtNcr201eONQGHzz",
+      "name": "PT Twink Indonesia",
+      "createdAt": "2025-11-21T06:36:54.005Z",
+      "org": "AI"
+    },
+    {
+      "id": "DpEGN0RLKbBIQIsJPAB9",
+      "name": "PT PLN Nusantara Power Construction NPC",
+      "org": "AI",
+      "createdAt": "2025-11-26T01:32:06.021Z"
+    },
+    {
+      "id": "IWAIX2OhYEzKuWz9GwLv",
+      "createdAt": "2025-11-26T04:27:57.346Z",
+      "org": "AI",
+      "name": "PT TEST (TESTING ONLY)"
+    },
+    {
+      "id": "JEJBM4afSpy2R79dnNxM",
+      "createdAt": "2025-11-26T03:22:36.028Z",
+      "name": "PT ANGIN RIBUT (TEST)",
+      "org": "INA"
+    },
+    {
+      "id": "LlPD2PiZnuqycY69OaBa",
+      "createdAt": "2025-11-26T01:32:44.260Z",
+      "org": "AI",
+      "name": "PT Indokomas Buana Perkasa (IBP)"
+    },
+    {
+      "id": "OwhEmAl01aAVMwnv26rG",
+      "createdAt": "2025-11-26T01:33:15.618Z",
+      "name": "PT Bangun Prima Semesta (BPS)",
+      "org": "AI"
+    },
+    {
+      "id": "Y9FWlOoOG8UgaqJvlSPb",
+      "name": "PT Berca Buana Sakti (BBS)",
+      "createdAt": "2025-11-26T01:32:54.256Z",
+      "org": "AI"
+    },
+    {
+      "id": "Yjg7ZLCWiYeDhFx0yYDm",
+      "org": "AI",
+      "createdAt": "2025-11-21T06:49:05.408Z",
+      "name": "PT Gridtech Indonesia"
+    },
+    {
+      "id": "ao4zM9w12HuPA027tKJo",
+      "org": "AI",
+      "createdAt": "2025-11-26T01:32:13.085Z",
+      "name": "PT Dalima Putra Perdana (DPP)"
+    },
+    {
+      "id": "bWgJKj6HrwaVI1kuA18m",
+      "org": "INA",
+      "createdAt": "2025-11-21T06:49:47.149Z",
+      "name": "UPT JBB"
+    },
+    {
+      "id": "bbueBUUDxG3tE1xTNiht",
+      "createdAt": "2025-11-26T01:32:30.698Z",
+      "name": "PT Hasta Karya Perdana (HKP)",
+      "org": "AI"
+    },
+    {
+      "id": "xmIR99jcqY6OQMO6YHyi",
+      "createdAt": "2025-11-21T07:09:34.041Z",
+      "name": "UPT JBT",
+      "org": "INA"
+    }
+  ],
+  "projects": [
+    {
+      "id": "0Op7MwEGucaLLPUxn6vy",
+      "quotationNumber": "",
+      "quotationPrice": 0,
+      "tenderStatus": "In progress",
+      "location": "",
+      "org": "AI",
+      "dueDate": "2025-11-28",
+      "clientId": "ao4zM9w12HuPA027tKJo",
+      "pic": "Cheko",
+      "createdAt": "2025-11-27T01:02:12.015Z",
+      "milestones": [
+        {
+          "status": "Done",
+          "startDate": null,
+          "subMilestones": [],
+          "tags": [],
+          "priority": "Normal",
+          "id": "26c241bc-3d6b-45bd-ac55-fdbf2e1dfeb5",
+          "name": "Surduk",
+          "description": "",
+          "completed": true,
+          "dueDate": null
+        },
+        {
+          "dueDate": null,
+          "name": "Teknis",
+          "priority": "Normal",
+          "status": "Done",
+          "completed": true,
+          "id": "ebe4760b-badc-46ff-aba1-1e9431b44d47",
+          "subMilestones": [],
+          "tags": [],
+          "startDate": null,
+          "description": ""
+        },
+        {
+          "name": "SPH",
+          "completed": true,
+          "subMilestones": [],
+          "description": "",
+          "startDate": null,
+          "priority": "Normal",
+          "status": "Done",
+          "dueDate": null,
+          "tags": [],
+          "id": "98f38785-6759-481b-9a99-9188acce84ea"
+        }
+      ],
+      "name": "SUTT Dumai - Lubuk Gaung"
+    },
+    {
+      "id": "5oFDZbBLlkNLOph5VNe2",
+      "tenderStatus": "In progress",
+      "name": "17. SUTT KEK Kendal",
+      "org": "AI",
+      "dueDate": "2025-12-01",
+      "pic": "Mirza",
+      "location": "",
+      "createdAt": "2025-11-26T01:34:55.894Z",
+      "quotationPrice": 0,
+      "clientId": "DpEGN0RLKbBIQIsJPAB9",
+      "quotationNumber": "",
+      "milestones": [
+        {
+          "startDate": "",
+          "subMilestones": [
+            {
+              "completed": true,
+              "id": "e751a0aa-4eb8-48a7-9b7a-41faf7d103ec",
+              "name": "26/11 Review EPC"
+            }
+          ],
+          "status": "Done",
+          "name": "Surduk",
+          "description": "",
+          "tags": [],
+          "priority": "Normal",
+          "dueDate": "",
+          "id": "b4587b87-339f-4323-86e3-9023be6f9a8e",
+          "completed": false
+        },
+        {
+          "startDate": null,
+          "description": "",
+          "subMilestones": [
+            {
+              "name": "25/11 Sent",
+              "completed": true,
+              "id": "cc5146be-56c8-4353-b89a-eb019706bf38"
+            }
+          ],
+          "name": "TPG DWG",
+          "id": "de2955de-f0d1-4cdf-9a91-41ce3fbc0d66",
+          "dueDate": null,
+          "completed": true,
+          "priority": "Normal",
+          "tags": [],
+          "status": "Done"
+        },
+        {
+          "priority": "Normal",
+          "tags": [],
+          "startDate": null,
+          "completed": true,
+          "description": "",
+          "name": "SPH",
+          "subMilestones": [],
+          "dueDate": null,
+          "status": "Done",
+          "id": "9ea8ac74-e727-4be2-b195-423ab6b98255"
+        }
+      ]
+    },
+    {
+      "id": "8sQRSzvEPcBcLhGzlmnq",
+      "clientId": "Yjg7ZLCWiYeDhFx0yYDm",
+      "org": "AI",
+      "createdAt": "2025-11-21T11:45:23.413Z",
+      "milestones": [
+        {
+          "completed": false,
+          "id": "609110f8-50b2-41d9-a5d3-517497b7d355",
+          "name": "UPLOAD BERKAS"
+        }
+      ],
+      "name": "PEMASANGAN GARDU INDUK PULOGADUNG",
+      "dueDate": null
+    },
+    {
+      "id": "DMHn8sUPlKibhFQJ11wd",
+      "name": "PROJECT TEST",
+      "quotationPrice": 50000000000,
+      "milestones": [],
+      "clientId": "JEJBM4afSpy2R79dnNxM",
+      "dueDate": "2025-11-28",
+      "org": "INA",
+      "createdAt": "2025-11-26T04:24:00.332Z",
+      "location": "NARNIA",
+      "pic": "SHINGO",
+      "tenderStatus": "Win",
+      "quotationNumber": "QT-2024-01-02"
+    },
+    {
+      "id": "GLHF4HBy8zvZIVl0AMF4",
+      "tenderStatus": "In progress",
+      "milestones": [
+        {
+          "startDate": "",
+          "name": "Surduk",
+          "completed": true,
+          "status": "Done",
+          "id": "210b757b-3f14-411b-bab0-2b171875d011",
+          "subMilestones": [],
+          "tags": [
+            "dokumen"
+          ],
+          "description": "",
+          "priority": "Normal",
+          "dueDate": ""
+        },
+        {
+          "tags": [
+            "dokumen"
+          ],
+          "completed": true,
+          "id": "54133fe8-e464-4ebc-85b4-5b0f1682aff6",
+          "subMilestones": [],
+          "description": "",
+          "name": "Teknis",
+          "dueDate": "",
+          "startDate": "",
+          "priority": "Normal",
+          "status": "Done"
+        },
+        {
+          "completed": true,
+          "dueDate": null,
+          "subMilestones": [],
+          "description": "",
+          "id": "863cd91c-241d-47ff-aa52-9c85d14cc56b",
+          "tags": [],
+          "status": "Done",
+          "startDate": null,
+          "name": "SPH",
+          "priority": "Normal"
+        }
+      ],
+      "createdAt": "2025-11-26T01:33:41.357Z",
+      "quotationPrice": 0,
+      "location": "",
+      "clientId": "DpEGN0RLKbBIQIsJPAB9",
+      "org": "AI",
+      "pic": "Mirza",
+      "name": "12. SKTT Tambun II - Tambun",
+      "dueDate": "2025-11-27",
+      "quotationNumber": ""
+    },
+    {
+      "id": "H28GvZcBcqDteA1jBhKF",
+      "org": "AI",
+      "location": "",
+      "quotationPrice": 0,
+      "dueDate": "2025-12-01",
+      "clientId": "DpEGN0RLKbBIQIsJPAB9",
+      "createdAt": "2025-11-26T01:41:10.595Z",
+      "milestones": [
+        {
+          "priority": "Normal",
+          "completed": false,
+          "startDate": null,
+          "id": "5d0b662b-1de4-4867-853d-9e929300a8e5",
+          "tags": [],
+          "name": "Surduk",
+          "description": "",
+          "dueDate": null,
+          "subMilestones": [
+            {
+              "name": "Review Surduk - EPC",
+              "id": "5109e67b-55d6-4b08-b88b-0061e0f4c4e3",
+              "completed": true
+            },
+            {
+              "completed": false,
+              "name": "Print Surduk - PLP",
+              "id": "75abffbd-dffb-43f8-bfbc-d902aea6a093"
+            }
+          ],
+          "status": "To Do"
+        },
+        {
+          "id": "48b5528b-e30a-43b5-86f0-a3e2c463a961",
+          "tags": [],
+          "status": "Done",
+          "priority": "Normal",
+          "name": "Teknis",
+          "completed": true,
+          "startDate": null,
+          "dueDate": null,
+          "description": "",
+          "subMilestones": []
+        },
+        {
+          "name": "SPH",
+          "subMilestones": [],
+          "id": "38e7ea7d-b793-4c2b-b617-edc26fa1b2eb",
+          "status": "To Do",
+          "priority": "Normal",
+          "dueDate": null,
+          "completed": false,
+          "description": "",
+          "startDate": null,
+          "tags": []
+        }
+      ],
+      "tenderStatus": "In progress",
+      "name": "18. TL Bungah - Paciran",
+      "quotationNumber": "",
+      "pic": "Mirza"
+    },
+    {
+      "id": "IDHw5CGPvKM2hJDJkSlh",
+      "name": "13. SKTT Tambun II - Poncol",
+      "quotationPrice": 0,
+      "location": "",
+      "pic": "Mirza",
+      "clientId": "DpEGN0RLKbBIQIsJPAB9",
+      "milestones": [
+        {
+          "tags": [],
+          "subMilestones": [],
+          "priority": "Normal",
+          "dueDate": null,
+          "description": "",
+          "completed": true,
+          "id": "411d4ae6-e024-4180-b073-1d0276c29683",
+          "status": "Done",
+          "name": "Surduk",
+          "startDate": null
+        },
+        {
+          "id": "10852d94-a08a-484e-9681-5cc2def4c7ee",
+          "completed": true,
+          "subMilestones": [],
+          "dueDate": null,
+          "tags": [],
+          "name": "Teknis",
+          "startDate": null,
+          "priority": "Normal",
+          "status": "Done",
+          "description": ""
+        },
+        {
+          "subMilestones": [],
+          "tags": [],
+          "id": "987fc74c-d9e5-4986-9085-dfcd06cc06ea",
+          "priority": "Normal",
+          "status": "Done",
+          "dueDate": null,
+          "completed": true,
+          "startDate": null,
+          "name": "SPH",
+          "description": ""
+        }
+      ],
+      "createdAt": "2025-11-26T01:33:51.872Z",
+      "quotationNumber": "",
+      "org": "AI",
+      "dueDate": "2025-11-27",
+      "tenderStatus": "In progress"
+    },
+    {
+      "id": "IghXeFh0eglKsiYEvstE",
+      "name": "PEKERJAAN PEMBANGUNAN SUTT 150 KV DUMAI - LUBUK GAUNG",
+      "pic": "",
+      "quotationPrice": 0,
+      "tenderStatus": "In progress",
+      "location": "",
+      "quotationNumber": "",
+      "clientId": "1GQXGtNcr201eONQGHzz",
+      "createdAt": "2025-11-21T06:37:06.532Z",
+      "org": "AI",
+      "milestones": [
+        {
+          "id": "feb4622d-5f24-4e0a-b827-89131c51eebf",
+          "status": "To Do",
+          "completed": true,
+          "name": "tpg"
+        },
+        {
+          "completed": true,
+          "status": "To Do",
+          "id": "3307995a-32cb-4bb3-9a05-bc9be0db41db",
+          "name": "BOQ"
+        },
+        {
+          "completed": true,
+          "name": "Dokumen  Pendukung",
+          "id": "95b386e9-0c43-43ea-9f09-5d00df706963"
+        },
+        {
+          "id": "79cc8745-07f3-4881-8d4c-c14db498d06b",
+          "name": "PENAWARAN HARGA",
+          "status": "To Do",
+          "completed": true
+        },
+        {
+          "description": "feature test",
+          "completed": false,
+          "dueDate": "2025-11-26",
+          "id": "9a8d58e4-26c0-4573-94a9-f5e2f423077b",
+          "tags": [],
+          "subMilestones": [
+            {
+              "completed": false,
+              "id": "51450777-0985-4cc3-bd76-b2bcd93a9c7a",
+              "name": "テスト"
+            }
+          ],
+          "name": "クリスタルの加護あれ",
+          "priority": "High",
+          "startDate": "2025-11-19",
+          "status": "To Do"
+        }
+      ],
+      "dueDate": null
+    },
+    {
+      "id": "OMWQEUfO2SM5yIewVnrS",
+      "clientId": "23yyn1qbxWoP1GTPaZRY",
+      "org": "AI",
+      "milestones": [],
+      "createdAt": "2025-11-21T06:51:21.760Z",
+      "name": "BERANTEM",
+      "dueDate": null
+    },
+    {
+      "id": "VI1vB2lRd3WaFMcSFBJE",
+      "createdAt": "2025-11-26T06:17:46.972Z",
+      "clientId": "IWAIX2OhYEzKuWz9GwLv",
+      "tenderStatus": "In progress",
+      "dueDate": "2025-11-26",
+      "quotationPrice": 15000000000,
+      "location": "JAKARTA",
+      "milestones": [
+        {
+          "tags": [],
+          "completed": false,
+          "name": "PEMBANGUNAN NEGARA BARU",
+          "id": "036af208-4ab7-471e-958b-2a7bd661a337",
+          "status": "To Do",
+          "description": "",
+          "subMilestones": [],
+          "startDate": null,
+          "dueDate": null,
+          "priority": "Normal"
+        },
+        {
+          "priority": "Urgent",
+          "completed": false,
+          "startDate": "",
+          "name": "PELENGSERAN JOKOWI",
+          "id": "a6b6d56c-ccad-48f9-8632-5c9f3204be8a",
+          "tags": [],
+          "subMilestones": [],
+          "description": "",
+          "status": "Done",
+          "dueDate": ""
+        },
+        {
+          "subMilestones": [],
+          "tags": [],
+          "name": "PENGADILAN AKHERAT",
+          "id": "5ea908eb-f6c2-4099-98bc-59c0dc268808",
+          "completed": false,
+          "description": "",
+          "startDate": "",
+          "status": "In Progress",
+          "priority": "Low",
+          "dueDate": ""
+        }
+      ],
+      "quotationNumber": "QT-TEST",
+      "name": "Project test",
+      "pic": "MARUL",
+      "org": "AI"
+    },
+    {
+      "id": "XMtY0bYFp5CsBKlijVp3",
+      "org": "AI",
+      "milestones": [
+        {
+          "completed": false,
+          "id": "bce4b07f-3427-498d-9839-8cfd47e86e70",
+          "name": "TPG"
+        },
+        {
+          "completed": false,
+          "id": "cac448a3-b60a-4b97-97ea-6eaf73030bba",
+          "name": "BOQ"
+        },
+        {
+          "name": "DOKUMEN PENDUKUNG",
+          "completed": false,
+          "id": "0e8950ee-22d6-4b32-9d49-879504eb1755"
+        }
+      ],
+      "name": "GI MUARA RUPIT",
+      "clientId": "Yjg7ZLCWiYeDhFx0yYDm",
+      "createdAt": "2025-11-21T06:49:22.500Z",
+      "dueDate": null
+    },
+    {
+      "id": "aSTjyp6ijomkwSVpoZCO",
+      "org": "AI",
+      "quotationPrice": 0,
+      "quotationNumber": "",
+      "tenderStatus": "In progress",
+      "dueDate": "2025-11-27",
+      "clientId": "DpEGN0RLKbBIQIsJPAB9",
+      "milestones": [
+        {
+          "dueDate": null,
+          "subMilestones": [],
+          "name": "Surduk",
+          "description": "",
+          "id": "c3588157-29bf-4461-8f86-40ab8dd6d531",
+          "startDate": null,
+          "tags": [],
+          "priority": "Normal",
+          "completed": true,
+          "status": "Done"
+        },
+        {
+          "description": "",
+          "id": "7efe4fdf-1e18-4e6c-ae63-2d4329cffa83",
+          "completed": true,
+          "priority": "Normal",
+          "status": "Done",
+          "startDate": null,
+          "name": "Teknis",
+          "dueDate": null,
+          "subMilestones": [],
+          "tags": []
+        },
+        {
+          "completed": true,
+          "description": "",
+          "name": "SPH",
+          "id": "fd239447-f7b9-4146-8398-81f401eeb108",
+          "priority": "Normal",
+          "startDate": null,
+          "dueDate": null,
+          "tags": [],
+          "subMilestones": [],
+          "status": "Done"
+        }
+      ],
+      "createdAt": "2025-11-26T01:34:11.459Z",
+      "pic": "Mirza",
+      "name": "15. SKTT Tanjung Api",
+      "location": ""
+    },
+    {
+      "id": "ap5pdE7nTFZ9eC3CCB5B",
+      "org": "AI",
+      "tenderStatus": "Need update",
+      "pic": "Mirza",
+      "milestones": [
+        {
+          "subMilestones": [],
+          "name": "Surduk",
+          "priority": "Normal",
+          "tags": [],
+          "description": "",
+          "startDate": null,
+          "id": "15a8e5f6-d1f6-4091-93e2-7e53ab94c22d",
+          "completed": true,
+          "dueDate": null,
+          "status": "Done"
+        },
+        {
+          "name": "Teknis",
+          "priority": "Normal",
+          "status": "To Do",
+          "startDate": null,
+          "dueDate": null,
+          "id": "98c205c1-8a8d-4ad2-bcf6-f1d3c368771f",
+          "tags": [],
+          "description": "",
+          "completed": false,
+          "subMilestones": []
+        },
+        {
+          "description": "",
+          "subMilestones": [],
+          "startDate": null,
+          "name": "SPH",
+          "status": "Done",
+          "tags": [],
+          "id": "eeb46c92-4c6d-4cd5-a103-28bcd1265195",
+          "completed": true,
+          "dueDate": null,
+          "priority": "Normal"
+        }
+      ],
+      "location": "",
+      "quotationNumber": "",
+      "clientId": "DpEGN0RLKbBIQIsJPAB9",
+      "quotationPrice": 0,
+      "createdAt": "2025-11-26T01:34:23.325Z",
+      "name": "16. SKTT Kedinding",
+      "dueDate": "2025-11-26"
+    },
+    {
+      "id": "hlThdFTPdPnTiu55e8BN",
+      "milestones": [
+        {
+          "name": "Surduk",
+          "startDate": null,
+          "id": "6b737d78-da99-4629-be32-601ae8e439dc",
+          "priority": "Normal",
+          "tags": [],
+          "subMilestones": [],
+          "description": "",
+          "dueDate": null,
+          "status": "Done",
+          "completed": true
+        },
+        {
+          "completed": true,
+          "subMilestones": [],
+          "description": "",
+          "dueDate": null,
+          "tags": [],
+          "status": "Done",
+          "id": "85550ffd-dfef-4173-894c-2d8abbd547cc",
+          "priority": "Normal",
+          "name": "Teknis",
+          "startDate": null
+        },
+        {
+          "dueDate": null,
+          "name": "SPH",
+          "completed": true,
+          "priority": "Normal",
+          "startDate": null,
+          "status": "Done",
+          "tags": [],
+          "id": "20b05b80-39f7-498d-90d8-fb7909a1aef0",
+          "description": "",
+          "subMilestones": []
+        }
+      ],
+      "createdAt": "2025-11-26T01:34:00.668Z",
+      "quotationPrice": 0,
+      "location": "",
+      "org": "AI",
+      "name": "14. SKTT GIS Padang",
+      "quotationNumber": "",
+      "dueDate": "2025-11-26",
+      "tenderStatus": "Need update",
+      "clientId": "DpEGN0RLKbBIQIsJPAB9",
+      "pic": "Mirza"
+    },
+    {
+      "id": "rqu1cNFwxM2wtvKGHxdi",
+      "tenderStatus": "In progress",
+      "quotationPrice": 0,
+      "location": "",
+      "name": "SUTT KEK Kendal",
+      "pic": "Indri",
+      "dueDate": "2025-12-01",
+      "org": "AI",
+      "clientId": "Y9FWlOoOG8UgaqJvlSPb",
+      "milestones": [],
+      "quotationNumber": "",
+      "createdAt": "2025-11-27T01:04:09.730Z"
+    },
+    {
+      "id": "sLbYCTkSBrJCBJAjCtI7",
+      "clientId": "DpEGN0RLKbBIQIsJPAB9",
+      "tenderStatus": "In progress",
+      "quotationNumber": "",
+      "dueDate": "2025-11-28",
+      "name": "19. TL Dumai - Lubuk Gaung",
+      "quotationPrice": 0,
+      "org": "AI",
+      "location": "",
+      "pic": "Ricky",
+      "milestones": [
+        {
+          "priority": "Normal",
+          "completed": false,
+          "id": "b6edc993-0304-46d9-ad2b-25a57fde0a78",
+          "tags": [],
+          "name": "Surduk",
+          "description": "",
+          "status": "To Do",
+          "subMilestones": [
+            {
+              "id": "767d4ae2-49fe-4f5d-aa20-299db141306f",
+              "completed": true,
+              "name": "Review Surdk - EPC"
+            },
+            {
+              "completed": false,
+              "name": "Print Surduk - PLP",
+              "id": "4d4cc9fb-b72d-423c-a7e3-61a0483c881a"
+            }
+          ],
+          "dueDate": null,
+          "startDate": null
+        },
+        {
+          "completed": true,
+          "id": "a8b2eb66-7691-4285-8c94-f332a86d9f70",
+          "description": "",
+          "subMilestones": [],
+          "priority": "Normal",
+          "status": "Done",
+          "dueDate": null,
+          "startDate": null,
+          "tags": [],
+          "name": "Teknis"
+        },
+        {
+          "status": "To Do",
+          "tags": [],
+          "completed": false,
+          "id": "8e7780cc-b40c-4fad-87cf-a456e1d9ec38",
+          "dueDate": null,
+          "description": "",
+          "startDate": null,
+          "name": "SPH",
+          "priority": "Normal",
+          "subMilestones": []
+        }
+      ],
+      "createdAt": "2025-11-26T01:34:37.375Z"
+    },
+    {
+      "id": "yavUWVIOMAMCkwIdf4tH",
+      "milestones": [
+        {
+          "id": "de60586f-1531-4d03-9591-95676ab88904",
+          "name": "test milestone",
+          "completed": false,
+          "subMilestones": []
+        },
+        {
+          "name": "test 2",
+          "completed": false,
+          "id": "c5ee399b-e966-4ebc-ba4e-242277d4f06c",
+          "subMilestones": []
+        }
+      ],
+      "name": "PEMBANGUNAN ATAP ",
+      "org": "INA",
+      "createdAt": "2025-11-21T06:49:54.760Z",
+      "clientId": "bWgJKj6HrwaVI1kuA18m",
+      "dueDate": null
+    }
+  ],
+  "currentUser": null
+}

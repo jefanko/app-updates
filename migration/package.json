@@ -1,0 +1,12 @@
+{
+    "name": "migration-script",
+    "version": "1.0.0",
+    "description": "Script to fetch data from Firebase",
+    "main": "fetch-data.js",
+    "scripts": {
+        "start": "node fetch-data.js"
+    },
+    "dependencies": {
+        "firebase": "^10.8.0"
+    }
+}

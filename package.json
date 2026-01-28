@@ -1,0 +1,94 @@
+{
+  "name": "ina-ai-chart",
+  "private": true,
+  "version": "1.3.1",
+  "type": "module",
+  "main": "electron.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "electron:dev": "concurrently -k \"cross-env BROWSER=none npm start\" \"wait-on http://localhost:5173 && electron .\"",
+    "electron:build": "npm run build && electron-packager . \"INA AI Chart\" --platform=win32 --arch=x64 --out=release --overwrite --icon=PMICO.ico",
+    "electron:package": "npm run build && electron-packager . \"INA AI Chart\" --platform=win32 --arch=x64 --out=release --overwrite --icon=PMICO.ico",
+    "electron:serve": "electron .",
+    "build:publish": "npm run build && electron-builder -p always"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "^2.89.0",
+    "archiver": "^7.0.1",
+    "electron-updater": "^6.6.2",
+    "firebase": "^12.6.0",
+    "groq-sdk": "^0.37.0",
+    "marked": "^17.0.1",
+    "mdb-reader": "^3.1.0",
+    "motion": "^12.23.24",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "recharts": "^3.6.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "autoprefixer": "^10.4.22",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "concurrently": "^8.2.2",
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1",
+    "electron-packager": "^17.1.2",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17",
+    "vite": "^7.2.4",
+    "wait-on": "^7.2.0",
+    "xlsx": "^0.18.5"
+  },
+  "build": {
+    "appId": "com.ina.chart",
+    "productName": "INA AI Chart",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "dist-electron/**/*",
+      "dist/**/*",
+      "electron.cjs",
+      "preload.cjs",
+      "PMICO.ico"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "PMICO.ico",
+      "publisherName": "INA Organization",
+      "signAndEditExecutable": false,
+      "verifyUpdateCodeSignature": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "INA AI Chart"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "jefanko",
+      "repo": "app-updates",
+      "releaseType": "release"
+    }
+  }
+}
